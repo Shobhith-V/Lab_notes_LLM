@@ -1,0 +1,18 @@
+[
+    {
+        "prompt": "### Instruction:\nExtract the parameters for a projectile motion problem from the text and provide them in JSON format.\n\n### Input:\nFrom the experiment, we launched the marble at about 30 degrees and it started with a speed of 15 m/s from the table which was 1 meter high.\n\n### Response:",
+        "completion": "{\n    \"initial_velocity\": 15,\n    \"angle\": 30,\n    \"initial_height\": 1\n}"
+    },
+    {
+        "prompt": "### Instruction:\nExtract the parameters for a projectile motion problem from the text and provide them in JSON format.\n\n### Input:\nNotes: initial vel = 40 ft/s, angle looks like 60 deg. started from the ground so h=0.\n\n### Response:",
+        "completion": "{\n    \"initial_velocity\": 40,\n    \"angle\": 60,\n    \"initial_height\": 0\n}"
+    },
+    {
+        "prompt": "### Instruction:\nExtract the parameters for a projectile motion problem from the text and provide them in JSON format.\n\n### Input:\nOkay so the cannonball was fired at 25 m/s. The angle was 45 degrees. It was on a 10m cliff.\n\n### Response:",
+        "completion": "{\n    \"initial_velocity\": 25,\n    \"angle\": 45,\n    \"initial_height\": 10\n}"
+    },
+    {
+        "prompt": "### Instruction:\nExtract the parameters for a projectile motion problem from the text and provide them in JSON format. If any information is missing, ask a clarifying question in the JSON response.\n\n### Input:\nThe projectile was fired with a velocity of 20 from a height of 5m.\n\n### Response:",
+        "completion": "{\n    \"clarification_question\": \"What was the launch angle for the projectile?\"\n}"
+    }
+]

@@ -1,0 +1,11 @@
+streamlit
+torch
+transformers
+peft
+accelerate
+datasets
+easyocr
+numpy
+matplotlib
+scipy
+bitsandbytes
